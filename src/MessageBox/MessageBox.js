@@ -53,7 +53,6 @@ export class MessageBox extends React.PureComponent {
 
         return (
             <div
-                ref='message'
                 className={classNames('rce-container-mbox', this.props.className)}
                 onClick={this.props.onClick}>
                 {
